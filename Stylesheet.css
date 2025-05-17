@@ -1,1 +1,5 @@
-body { color: #efefef; }
+body { background-color: #EFEFEF; }
+
+p { border: 2px solid orange;}
+
+a {background-color: #fff; color: green; }
