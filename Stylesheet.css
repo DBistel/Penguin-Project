@@ -84,6 +84,62 @@ header{
 
 /* This is the End of the NavBar section. */
 
+/* Hero Section */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f0f8ff;
+
+}
+
+.hero-text{
+    flex: 1;
+    padding-right: 2rem; 
+    
+}
+
+.hero-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+
+}
+
+.cta-button:hover{
+    background-color: #005fa3;
+}
+
+.hero-image{
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* End of Hero */
+
+
 /*@media (max-with: 768px) {
     .hamburger{
         display: block; /*shows the hamburger on smaller screens/
