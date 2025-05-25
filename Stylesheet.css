@@ -34,7 +34,7 @@ img {
 header{
     text-align: center;
 }
-
+/* This is the Navigation Bar section. */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -82,13 +82,15 @@ header{
 
 }
 
-@media (max-with: 768px) {
+/* This is the End of the NavBar section. */
+
+/*@media (max-with: 768px) {
     .hamburger{
-        display: block; /*shows the hamburger on smaller screens*/
+        display: block; /*shows the hamburger on smaller screens/
     }
 
     .nav-links {
-    display: none; /* hide links by default on small screens */
+    display: none; /* hide links by default on small screens /
     flex-direction: column;
     position: absolute;
     top: 70px;
@@ -99,6 +101,7 @@ header{
   }
 
   .nav-links.show {
-    display: flex; /* shown when toggled with JavaScript */
+    display: flex; /* shown when toggled with JavaScript /
   }
-}
+}*/
+
