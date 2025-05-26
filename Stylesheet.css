@@ -5,14 +5,14 @@ body {
 
 }
 
-p {
+/*p {
     background-color: tan;
     width: 300px;
     height: auto;
     margin: 30px;
     border-radius: 10px;
     padding: 10px;
-}
+} */
 
 .button {
     display: inline-block;
@@ -138,6 +138,91 @@ header{
 }
 
 /* End of Hero */
+
+/* three column layout */
+
+.features{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #eef6f9;
+    flex-wrap: wrap;
+
+}
+
+.features-card{
+    flex: 1;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1,);
+    text-align: center;
+}
+
+.features-card a{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.features-card a:hover{
+    background-color: #005fa3;
+}
+/* end of three column layout */ 
+
+/* Card Grid */
+
+.card-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1,);
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-button{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+
+}
+
+.card-button.red { background-color: crimson;}
+.card-button.red:hover{ background-color: darkred;}
+
+.card-button.green { background-color: seagreen;}
+.card-button.green:hover{ background-color: darkgreen;}
+
+.card-button.blue { background-color: royalblue;}
+.card-button.blue:hover{ background-color: navy;}
+
+/*end of card grid */
+
+
 
 
 /*@media (max-with: 768px) {
