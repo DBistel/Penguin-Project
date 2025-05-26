@@ -222,7 +222,47 @@ header{
 
 /*end of card grid */
 
+/* Footer*/
 
+.site-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.footer-column{
+    flex: 1;
+    margin: 1rem;
+    min-width: 200px;
+
+}
+
+.footer-column h4{
+    margin-bottom: 0.5rem;
+
+}
+
+.footer-column ul{
+    list-style: none;
+    padding: 0;
+
+}
+.footer-column li a{
+    color: #ddd;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.3rem;
+    transition: color 0.3s;
+}
+
+.footer-column li a:hover{
+    color: #fff;
+}
+/*End of Footer*/
 
 
 /*@media (max-with: 768px) {
