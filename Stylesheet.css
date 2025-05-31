@@ -4,6 +4,9 @@ body {
      margin: 0;
 
 }
+a{
+    text-decoration: none;
+}
 
 /*p {
     background-color: tan;
@@ -286,3 +289,45 @@ header{
   }
 }*/
 
+.Penguin-Parade-Parent-Grid{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    /* grid-auto-rows: minmax(5rem, auto);
+    grid-auto-columns: minmax(5rem,auto); */
+}
+.Penguin-Parade-Parent-Grid h1{
+    text-align: center;
+}
+
+.Penguin-Parade-Parent-Grid img{
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+
+}
+.Penguin-Parade-Parent-Grid p{
+    background-color: orange;
+    padding: 2%;
+    border-radius: 5px;
+    text-align: center;
+}
+.Penguin-Parade-Parent-Grid div{
+    display: grid;
+    place-items: center;
+
+}
+.Penguin-Parade-Parent-Grid a{
+    text-align: center;
+    color: black;
+    background-color: orange; 
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-bottom: 0.3rem;
+    transition: color 0.3s;
+    border-radius: 50%;
+    
+}
+.Penguin-Parade-Parent-Grid a:hover{
+    background-color: darkorange;
+    color: white;
+}
